@@ -3,6 +3,9 @@ const nextConfig = {
     reactStrictMode: true,
     experimental: {
       serverActions: {},
+  },
+  compiler: {
+      styledComponents:true
     },
     webpack(config) {
       config.module.rules.push({

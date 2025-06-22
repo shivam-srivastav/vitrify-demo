@@ -1,3 +1,4 @@
+'use client';
 import styled from "styled-components";
 import Navbar from "./NavBar";
 import Section from "./Section";

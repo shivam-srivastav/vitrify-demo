@@ -1,4 +1,5 @@
-const { default: styled } = require("styled-components");
+"use client"
+import styled  from "styled-components";
 
 const Button = ({ variant="default", name, icon }) => {
     const Icon = icon();
