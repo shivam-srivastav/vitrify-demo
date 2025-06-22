@@ -2,7 +2,7 @@
 const nextConfig = {
     reactStrictMode: true,
     experimental: {
-      serverActions: true,
+      serverActions: {},
     },
     webpack(config) {
       config.module.rules.push({
