@@ -3,7 +3,7 @@ import styled from "styled-components";
 import MenuIcon from '../../icons/menu.svg';
 import { AccountIcons, ArrowDownTurn, Dashborad, MenuIcons, Reports } from "./Icons";
 
-const { useState } = require("react")
+import { useState } from"react"
 
 const SubMenu = () => {
     const [toggleMenu, setToggleMenu] = useState('menu');

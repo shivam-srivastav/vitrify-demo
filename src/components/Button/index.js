@@ -2,7 +2,7 @@ const { default: styled } = require("styled-components");
 
 const Button = ({ variant="default", name, icon }) => {
     const Icon = icon();
-    return <StyledButton $varient={variant}>
+    return <StyledButton $variant={variant}>
         <div className={`${variant==="selected"?"selected":variant} flex items-center justify-around`}>
             <Icon />
             <span>
@@ -19,7 +19,7 @@ const StyledButton = styled.button`
     cursor: pointer;
     svg {
         path{
-        fill:${props=>props?.$varient==='selected'?'#fff':'#2B2064'};
+        fill:${props=>props?.$variant==='selected'?'#fff':'#2B2064'};
     }
     }
 .default{

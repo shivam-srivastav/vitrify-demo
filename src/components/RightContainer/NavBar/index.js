@@ -3,7 +3,7 @@ import SearchBar from "@/components/SearchBar";
 import Image from "next/image";
 import styled from "styled-components";
 
-const { ArrowLeft, Notification, User, FindPatient } = require("@/components/SubMenu/Icons")
+import { ArrowLeft, Notification, User, FindPatient } from "@/components/SubMenu/Icons";
 
 const Navbar = () => {
     return <navbar>
