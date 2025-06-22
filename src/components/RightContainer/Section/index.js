@@ -193,7 +193,7 @@ width:380px;
 `
 const HistoryDropdown = styled.div`
 margin:1rem;
-padding:1rem;
+padding:0.5rem 1rem;
 background: rgba(238, 237, 246, 1);
 border-radius:30px;
 box-shadow: 0px 1px 2px 0px rgba(43, 32, 100, 1);
